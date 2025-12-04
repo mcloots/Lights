@@ -11,23 +11,23 @@ namespace Lights.Models
         public static readonly Dictionary<string, (double X, double Y)> Positions =
         new(StringComparer.OrdinalIgnoreCase)
         {
-            ["woonkamer"] = (665, 541),
-            ["keukentafel"] = (433, 423),
-            ["keuken"] = (406, 620),
+            ["woonkamer"] = (415, 225),
+            ["eetkamer"] = (423, 415),
+            ["keuken"] = (400, 610),
+            ["toilet"] = (525, 640),
 
-            ["slaapkamer 1"] = (202, 652),
-            ["slaapkamer 2"] = (245, 150),
-            ["slaapkamer 3"] = (734, 369),
+            ["slaapkamer 1"] = (192, 652),
+            ["slaapkamer 2"] = (235, 150),
+            ["studeerkamer"] = (665, 260),
 
-            ["badkamer 1"] = (134, 470),
-            ["badkamer 2"] = (101, 199),
-            ["badkamer 3"] = (784, 140),
+            ["badkamer 1"] = (127, 460),
+            ["badkamer 2"] = (88, 170),
+            ["badkamer 3"] = (777, 135),
 
-            ["studeerkamer"] = (684, 262),
-            ["inkomhal"] = (668, 555),
+            ["veranda"] = (658, 550),
 
-            ["terras"] = (653, 653),
-            ["tuin"] = (858, 184)
+            ["terras"] = (640, 670),
+            ["tuin"] = (875, 190)
         };
     }
 
